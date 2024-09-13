@@ -5,7 +5,7 @@ from pathlib import Path
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s] - %(message)s')
 
 
-project_name="chicken-diseases-classification-project"
+project_name="chicken_diseases_classification_project"
 
 list_of_files=[
     ".github/workflows/.gitkeep",
@@ -23,6 +23,7 @@ list_of_files=[
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
+    "templates/index.html",
 ]
 
 
